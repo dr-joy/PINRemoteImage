@@ -1258,15 +1258,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/webp",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1294,15 +1287,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/webp",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
