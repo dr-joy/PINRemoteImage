@@ -1260,6 +1260,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build",
 					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build",
 					"$(PROJECT_DIR)/webp",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1289,6 +1290,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build",
 					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build",
 					"$(PROJECT_DIR)/webp",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
