@@ -51,8 +51,6 @@
 		3120AF5C2B3199D70040E258 /* WebPDecoder.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3120AF592B3199D60040E258 /* WebPDecoder.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3120AF5D2B3199D70040E258 /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3120AF5A2B3199D70040E258 /* WebPDemux.xcframework */; };
 		3120AF5E2B3199D70040E258 /* WebPDemux.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3120AF5A2B3199D70040E258 /* WebPDemux.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31AD5EB32B318C8300C3D73D /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AD5EB12B318C8300C3D73D /* PINCache.xcframework */; };
-		31AD5EB52B318C8300C3D73D /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AD5EB22B318C8300C3D73D /* PINOperation.xcframework */; };
 		683128F51F95045200D5B4A8 /* PINAnimatedImage+PINAnimatedImageTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 683128F41F95045200D5B4A8 /* PINAnimatedImage+PINAnimatedImageTesting.m */; };
 		6858C0751C9CC5BA00E420EB /* PINRemoteLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6858C0731C9CC5BA00E420EB /* PINRemoteLock.h */; };
 		6858C0761C9CC5BA00E420EB /* PINRemoteLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6858C0741C9CC5BA00E420EB /* PINRemoteLock.m */; };
@@ -344,9 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3120AF5B2B3199D70040E258 /* WebPDecoder.xcframework in Frameworks */,
-				31AD5EB32B318C8300C3D73D /* PINCache.xcframework in Frameworks */,
 				3120AF5D2B3199D70040E258 /* WebPDemux.xcframework in Frameworks */,
-				31AD5EB52B318C8300C3D73D /* PINOperation.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1294,7 +1290,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Carthage/Build",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/webp",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1325,7 +1321,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Carthage/Build",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/webp",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
