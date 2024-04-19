@@ -4,10 +4,4 @@
    <FileRef
       location = "group:PINRemoteImage.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/PINCache/PINCache.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/PINOperation/PINOperation.xcodeproj">
-   </FileRef>
 </Workspace>
