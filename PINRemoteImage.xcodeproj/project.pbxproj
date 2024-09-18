@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0E71BE2A22E94C7200FC5B99 /* fireworks.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0E71BE2522E94C7200FC5B99 /* fireworks.gif */; };
-		116C0A662C9A945F00FBD2E8 /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF62BF217DB0098F58D /* WebP.xcframework */; };
-		116C0A682C9A945F00FBD2E8 /* WebPDecoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF82BF217DB0098F58D /* WebPDecoder.xcframework */; };
-		116C0A6A2C9A945F00FBD2E8 /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF72BF217DB0098F58D /* WebPDemux.xcframework */; };
-		116C0A6C2C9A945F00FBD2E8 /* WebPMux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF92BF217DB0098F58D /* WebPMux.xcframework */; };
 		139D3A631F67284400F82935 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139D3A5A1F67284400F82935 /* PINRemoteImage.framework */; };
 		139D4FCA1F672B0D00DE64E0 /* PINButton+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47F991C699F4B00F12CA0 /* PINButton+PINRemoteImage.m */; };
 		139D4FCB1F672B0D00DE64E0 /* PINImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47F9B1C699F4B00F12CA0 /* PINImageView+PINRemoteImage.m */; };
@@ -53,6 +49,10 @@
 		139D50B21F672BBF00DE64E0 /* PINSpeedRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6860CB061F578287005E886E /* PINSpeedRecorder.h */; };
 		31D97EF12BF217DB0098F58D /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AD5EB12B318C8300C3D73D /* PINCache.xcframework */; };
 		31D97EF32BF217DB0098F58D /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AD5EB22B318C8300C3D73D /* PINOperation.xcframework */; };
+		31D97EFA2BF217DB0098F58D /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF62BF217DB0098F58D /* WebP.xcframework */; };
+		31D97EFC2BF217DB0098F58D /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF72BF217DB0098F58D /* WebPDemux.xcframework */; };
+		31D97EFE2BF217DB0098F58D /* WebPDecoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF82BF217DB0098F58D /* WebPDecoder.xcframework */; };
+		31D97F002BF217DB0098F58D /* WebPMux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D97EF92BF217DB0098F58D /* WebPMux.xcframework */; };
 		683128F51F95045200D5B4A8 /* PINAnimatedImage+PINAnimatedImageTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 683128F41F95045200D5B4A8 /* PINAnimatedImage+PINAnimatedImageTesting.m */; };
 		6858C0751C9CC5BA00E420EB /* PINRemoteLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6858C0731C9CC5BA00E420EB /* PINRemoteLock.h */; };
 		6858C0761C9CC5BA00E420EB /* PINRemoteLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6858C0741C9CC5BA00E420EB /* PINRemoteLock.m */; };
@@ -198,10 +198,6 @@
 
 /* Begin PBXFileReference section */
 		0E71BE2522E94C7200FC5B99 /* fireworks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fireworks.gif; sourceTree = "<group>"; };
-		116C0A592C9A93CC00FBD2E8 /* WebPDecoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPDecoder.xcframework; path = Carthage/Checkouts/WebPDecoder.xcframework; sourceTree = "<group>"; };
-		116C0A5A2C9A93CC00FBD2E8 /* WebPMux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPMux.xcframework; path = Carthage/Checkouts/WebPMux.xcframework; sourceTree = "<group>"; };
-		116C0A5B2C9A93CC00FBD2E8 /* WebP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebP.xcframework; path = Carthage/Checkouts/WebP.xcframework; sourceTree = "<group>"; };
-		116C0A5C2C9A93CC00FBD2E8 /* WebPDemux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPDemux.xcframework; path = Carthage/Checkouts/WebPDemux.xcframework; sourceTree = "<group>"; };
 		139D3A5A1F67284400F82935 /* PINRemoteImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINRemoteImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		139D3A621F67284400F82935 /* PINRemoteImage-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINRemoteImage-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3120AF592B3199D60040E258 /* WebPDecoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPDecoder.xcframework; path = webp/WebPDecoder.xcframework; sourceTree = "<group>"; };
@@ -342,11 +338,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116C0A6C2C9A945F00FBD2E8 /* WebPMux.xcframework in Frameworks */,
-				116C0A662C9A945F00FBD2E8 /* WebP.xcframework in Frameworks */,
+				31D97EFA2BF217DB0098F58D /* WebP.xcframework in Frameworks */,
+				31D97EFC2BF217DB0098F58D /* WebPDemux.xcframework in Frameworks */,
+				31D97F002BF217DB0098F58D /* WebPMux.xcframework in Frameworks */,
 				31D97EF12BF217DB0098F58D /* PINCache.xcframework in Frameworks */,
-				116C0A6A2C9A945F00FBD2E8 /* WebPDemux.xcframework in Frameworks */,
-				116C0A682C9A945F00FBD2E8 /* WebPDecoder.xcframework in Frameworks */,
+				31D97EFE2BF217DB0098F58D /* WebPDecoder.xcframework in Frameworks */,
 				31D97EF32BF217DB0098F58D /* PINOperation.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,13 +354,9 @@
 			isa = PBXGroup;
 			children = (
 				31D97EF62BF217DB0098F58D /* WebP.xcframework */,
-				116C0A5B2C9A93CC00FBD2E8 /* WebP.xcframework */,
 				31D97EF82BF217DB0098F58D /* WebPDecoder.xcframework */,
 				31D97EF72BF217DB0098F58D /* WebPDemux.xcframework */,
-				116C0A5C2C9A93CC00FBD2E8 /* WebPDemux.xcframework */,
 				31D97EF92BF217DB0098F58D /* WebPMux.xcframework */,
-				116C0A592C9A93CC00FBD2E8 /* WebPDecoder.xcframework */,
-				116C0A5A2C9A93CC00FBD2E8 /* WebPMux.xcframework */,
 				31665EB02BD2337600044A73 /* PINCache.framework */,
 				31665EB12BD2337600044A73 /* PINOperation.framework */,
 				3120AF592B3199D60040E258 /* WebPDecoder.xcframework */,
