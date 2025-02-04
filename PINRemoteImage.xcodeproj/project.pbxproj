@@ -102,14 +102,11 @@
 		9DD47FA51C699FDC00F12CA0 /* PINImage+DecodedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47FA11C699FDC00F12CA0 /* PINImage+DecodedImage.m */; };
 		9DD47FA61C699FDC00F12CA0 /* PINImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD47FA21C699FDC00F12CA0 /* PINImage+WebP.h */; };
 		9DD47FA71C699FDC00F12CA0 /* PINImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47FA31C699FDC00F12CA0 /* PINImage+WebP.m */; };
+		A251D17A2D51BB200082106A /* WebPDecoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3120AF592B3199D60040E258 /* WebPDecoder.xcframework */; };
 		A251D17C2D51BB200082106A /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3120AF5A2B3199D70040E258 /* WebPDemux.xcframework */; };
-		A251D1942D51C3F90082106A /* WebPMux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A251D17F2D51BB200082106A /* WebPMux.xcframework */; };
-		A251D1952D51C3F90082106A /* WebPMux.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A251D17F2D51BB200082106A /* WebPMux.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A251D1972D51C3FA0082106A /* WebPDemux.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3120AF5A2B3199D70040E258 /* WebPDemux.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A251D1982D51C3FB0082106A /* WebPDecoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3120AF592B3199D60040E258 /* WebPDecoder.xcframework */; };
-		A251D1992D51C3FB0082106A /* WebPDecoder.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3120AF592B3199D60040E258 /* WebPDecoder.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A251D19A2D51C3FC0082106A /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A251D1802D51BB200082106A /* WebP.xcframework */; };
-		A251D19B2D51C3FC0082106A /* WebP.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A251D1802D51BB200082106A /* WebP.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A251D1812D51BB200082106A /* WebPMux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A251D17F2D51BB200082106A /* WebPMux.xcframework */; };
+		A251D1832D51BB200082106A /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A251D1802D51BB200082106A /* WebP.xcframework */; };
+		A251D1852D51BB2D0082106A /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3120AF5A2B3199D70040E258 /* WebPDemux.xcframework */; };
 		A7343C5B228993D100972894 /* NSHTTPURLResponse+MaxAge.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD28EAE81695DDF84BB76B8 /* NSHTTPURLResponse+MaxAge.m */; };
 		A7343C60228993F400972894 /* NSHTTPURLResponse+MaxAge.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD28EAE81695DDF84BB76B8 /* NSHTTPURLResponse+MaxAge.m */; };
 		ACD28AB87FABF6BA3B9BF4E4 /* NSDate+PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD28D963D79EEC14EE071CE /* NSDate+PINCacheTests.m */; };
@@ -196,20 +193,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A251D1962D51C3F90082106A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A251D1952D51C3F90082106A /* WebPMux.xcframework in Embed Frameworks */,
-				A251D19B2D51C3FC0082106A /* WebP.xcframework in Embed Frameworks */,
-				A251D1992D51C3FB0082106A /* WebPDecoder.xcframework in Embed Frameworks */,
-				A251D1972D51C3FA0082106A /* WebPDemux.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -358,11 +341,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A251D1812D51BB200082106A /* WebPMux.xcframework in Frameworks */,
+				A251D1852D51BB2D0082106A /* WebPDemux.xcframework in Frameworks */,
+				A251D17A2D51BB200082106A /* WebPDecoder.xcframework in Frameworks */,
 				31D97EF12BF217DB0098F58D /* PINCache.xcframework in Frameworks */,
 				A251D17C2D51BB200082106A /* WebPDemux.xcframework in Frameworks */,
-				A251D1942D51C3F90082106A /* WebPMux.xcframework in Frameworks */,
-				A251D19A2D51C3FC0082106A /* WebP.xcframework in Frameworks */,
-				A251D1982D51C3FB0082106A /* WebPDecoder.xcframework in Frameworks */,
+				A251D1832D51BB200082106A /* WebP.xcframework in Frameworks */,
 				31D97EF32BF217DB0098F58D /* PINOperation.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -759,7 +743,6 @@
 				F1B918CC1BCF239200710963 /* Sources */,
 				F1B918CD1BCF239200710963 /* Frameworks */,
 				F1B918CE1BCF239200710963 /* Headers */,
-				A251D1962D51C3F90082106A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
